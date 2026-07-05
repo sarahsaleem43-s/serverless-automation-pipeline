@@ -1,3 +1,10 @@
+terraform {
+  backend "s3" {
+    bucket = "sarah-terraform-state-bucket"
+    key    = "serverless/terraform.tfstate"
+    region = "us-east-1"
+  }
+}
 # AWS provider setup
 provider "aws" {
   region = "us-east-1"
