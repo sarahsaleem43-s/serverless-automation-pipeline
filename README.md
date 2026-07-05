@@ -13,7 +13,7 @@ API Gateway, and Terraform with automated CI/CD via GitHub Actions.
 - **Cloud:** AWS (us-east-1)
 
 ## Architecture Diagram
-![Architecture Diagram](architecture.png)
+![Architecture Diagram](serverless_pipeline_architecture.png)
 
 ## Pipeline Flow
 Developer → GitHub → GitHub Actions → Terraform → AWS Lambda + API Gateway
